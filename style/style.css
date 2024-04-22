@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    background: linear-gradient(270deg, #7f0365, #ff00c9, #008cff, #a300ff);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 0s ease infinite;
+    -moz-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+.form{
+    background-color: aqua;
+    width: 800px;
+    height: 250px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input{
+    border: 1px solid red;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+input:focus{
+    opacity: 1;
+}
+
